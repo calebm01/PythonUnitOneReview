@@ -19,14 +19,16 @@
 
 #Finding the area of a circle
 
-def AreaofCircle():
+def AreaofCircle(radius1):
     
     pi = 3.14159265
 
 #1 get a radius
-    radius = input("what is the radius of our circle?: ")
+    radius = radius1
 #2 compute the area
     radius = float(radius)
     area = radius*radius*pi
 #3 display the area
     print("the area of the circle is: ", area)
+    radiusx=input("what is the radius")
+    AreaofCircle(radiusx)
